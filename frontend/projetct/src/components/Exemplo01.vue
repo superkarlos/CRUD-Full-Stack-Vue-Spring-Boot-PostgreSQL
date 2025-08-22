@@ -12,7 +12,7 @@ const props = defineProps({
 
 <template>
   <section class="card">
-    <h1 class="title">Nome: {{ props.nome }}</h1>
+    <h1 class="title">Nomez: {{ props.nome }}</h1>
 
   </section>
 </template>
