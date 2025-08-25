@@ -1,16 +1,15 @@
-import { createRouter, createWebHistory } from "vue-router";
-import FormeEnviarPessoas from "../components/base/FormeEnviarPessoas.vue";
-import FormeListarPessoas from "../components/base/FormeListarPessoas.vue";
+// import { createRouter, createWebHistory } from "vue-router";
+// import FormeEnviarPessoas from "../components/base/FormeEnviarPessoas.vue";
+// import FormeListarPessoas from "../components/base/FormeListarPessoas.vue";
 
-const routes = [
-  { path: "/", redirect: "/listar" }, // redireciona para lista
-  { path: "/cadastrar", component: FormeEnviarPessoas },
-  { path: "/listar", component: FormeListarPessoas },
-];
+// // const routes = [
+// //   { path: "/", redirect: "/listar" }, // redireciona para lista
+// //   { path: "/cadastrar", component: FormeEnviarPessoas },
+// //   { path: "/listar", component: FormeListarPessoas },
+// // ];
 
-const router = createRouter({
-  history: createWebHistory(),
-  routes,
-});
+// const router = createRouter({
+//   history: createWebHistory()
+// });
 
-export default router;
+// export default router;

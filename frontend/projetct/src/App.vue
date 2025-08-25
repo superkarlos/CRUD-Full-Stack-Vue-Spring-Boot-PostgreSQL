@@ -1,4 +1,16 @@
 <script setup>
+
+import Exemplo12Rotas from './components/partedois/exemplo13rotas/Exemplo12Rotas.vue';
+
+// import Exemplo10Lifecycle from './components/partedois/Exemplo10Lifecycle.vue';
+
+</script>
+
+<template>
+  <Exemplo12Rotas></Exemplo12Rotas>
+</template>
+
+<!-- <script setup>
 </script>
 
 <template>
@@ -56,4 +68,4 @@ main {
   max-width: 900px;
   margin: 0 auto;
 }
-</style>
+</style> -->
