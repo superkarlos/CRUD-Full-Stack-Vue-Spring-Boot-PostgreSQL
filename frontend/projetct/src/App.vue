@@ -1,13 +1,16 @@
 <script setup>
 
+import Exemplo14 from './components/partedois/bootstrap/Exemplo14.vue';
 import Exemplo12Rotas from './components/partedois/exemplo13rotas/Exemplo12Rotas.vue';
+import Exemplo13 from './components/partedois/requisisaohttp/Exemplo13.vue';
+import Exemplp24get from './components/partedois/requisisaohttp/get/Exemplp24get.vue';
 
 // import Exemplo10Lifecycle from './components/partedois/Exemplo10Lifecycle.vue';
 
 </script>
 
 <template>
-  <Exemplo12Rotas></Exemplo12Rotas>
+  <Exemplp24get></Exemplp24get>
 </template>
 
 <!-- <script setup>
